@@ -1,4 +1,5 @@
 RUN apt update && apt upgrade
+RUN apt install -y aria2 nano npm nodejs
 #clones the repo
 RUN git clone https://github.com/denomparkour/shell-bot
 #changes dir to shell-bot

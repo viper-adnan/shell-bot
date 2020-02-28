@@ -1,3 +1,4 @@
+RUN apt update && apt upgrade
 #clones the repo
 RUN git clone https://github.com/denomparkour/shell-bot
 #changes dir to shell-bot

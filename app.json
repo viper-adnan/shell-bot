@@ -1,7 +1,6 @@
 {
   "name": "parkour-shell",
   "repository": "https://github.com/denomparkour/shell-bot"
-  "addons": [],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {

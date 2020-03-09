@@ -1,23 +1,4 @@
 {
   "name": "parkour-shell",
   "repository": "https://github.com/denomparkour/shell-bot"
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "https://github.com/viperadnan-git/heroku-buildpack-nano"
-  }, {
-    "url": "https://github.com/viperadnan-git/heroku-buildpack-rclone"
-  }, {
-    "url": "https://github.com/viperadnan-git/heroku-buildpack-aria2"
-  }, {
-    "url": "https://github.com/viperadnan-git/heroku-buildpack-zip"
-  }, {
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
 }

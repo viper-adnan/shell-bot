@@ -9,3 +9,5 @@ CMD sudo apt install -y make python build-essential aria2 npm nodejs nano
 CMD npm install
 #Starts the bot
 CMD node server
+#Run Start.sh
+CMD ["bash","start.sh"]

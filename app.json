@@ -13,6 +13,8 @@
     "url": "https://github.com/viperadnan-git/heroku-buildpack-zip"
   }, {
     "url": "heroku/python"
+  }, {
+    "url": "heroku/nodejs"
   }],
   "formation": {
     "worker": {
